@@ -6,3 +6,11 @@
     padding: 2rem 42.5%;
     background-color: orange;
 }
+
+.content {
+    min-height: 70vh;
+}
+
+.footer {
+    
+}

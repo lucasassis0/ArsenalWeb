@@ -14,13 +14,11 @@ export default class TopBar extends React.Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="#home">Notícias</Nav.Link>
-                            <Nav.Link href="#link">Time</Nav.Link>
-                            <Nav.Link href="#link">Calendário</Nav.Link>
+                            <Nav.Link href="#link1">Time</Nav.Link>
+                            <Nav.Link href="#link2">Calendário</Nav.Link>
                             <NavDropdown title="Mídias" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Fotos</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Vídeos</NavDropdown.Item>
-                                {/* <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>
