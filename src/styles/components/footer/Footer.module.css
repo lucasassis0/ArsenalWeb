@@ -15,42 +15,26 @@
     color: black !important;
     margin: 0 1rem;
 }
-.menuButton:active {
+.menuButtonSelected {
+    background: none !important;
+    border: none !important;
+    color: black !important;
+    margin: 0 1rem;
+    font-weight: bold !important;
+    border-bottom: 3px solid orange !important;
+}
+.menuButtonSelected:active {
     background: none;
     border: none;
     color: black;
     font-weight: bold;
     border-bottom: 3px solid orange !important;
 }
-.menuButton:focus {
+.menuButtonSelected:focus {
     outline: none !important;
     box-shadow: none !important;
     font-weight: bold;
     border-bottom: 3px solid orange !important;
-}
-.linksContainer {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0 10rem;
-}
-.linksContent {
-    padding: 2rem;
-    text-align: center;
-}
-.title {
-    font-size: 20px;
-    font-weight: bolder;
-    padding: 0.5rem;
-    color: black;
-}
-a {
-    color: black !important;
-    text-decoration: none !important;
-    font-weight: 600 !important;
-}
-a:hover {
-    font-weight: bold !important;
 }
 .footer {
     background: orange;

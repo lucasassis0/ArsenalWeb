@@ -1,0 +1,4 @@
+.regiao {
+    display: flex;
+    flex-direction: column;
+}

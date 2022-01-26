@@ -1,6 +1,6 @@
 import React from "react";
 import TopBar from "./TopBar";
-import Footer from "./Footer";
+import Footer from "./footer/Footer";
 import style from "../../styles/components/AppTemplate.module.css";
 
 export default class AppTemplate extends React.Component {
