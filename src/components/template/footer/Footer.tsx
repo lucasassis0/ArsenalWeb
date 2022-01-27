@@ -36,7 +36,7 @@ export default function Footer() {
             <div className={style.container}>
                 <div className={style.header}>
                     <Button className={linksArsenal ? style.menuButtonSelected : style.menuButton} onClick={() => alteraMenuSelecionado('linksArsenal')}>Links Arsenal</Button>
-                    <Button className={times ? style.menuButtonSelected : style.menuButton} onClick={() => alteraMenuSelecionado('times')}>Times BFA</Button>
+                    <Button className={times ? style.menuButtonSelected : style.menuButton} onClick={() => alteraMenuSelecionado('times')}>BFA Elite</Button>
                     <Button className={outros ? style.menuButtonSelected : style.menuButton} onClick={() => alteraMenuSelecionado('outros')}>Outros Links</Button>
                 </div>
                 {linksArsenal && (<SocialMedia />)}
