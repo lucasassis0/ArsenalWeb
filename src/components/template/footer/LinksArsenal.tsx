@@ -1,22 +1,22 @@
-import style from "../../../styles/components/footer/SocialMedia.module.css";
+import style from "../../../styles/components/footer/LinksArsenal.module.css";
 
-export default function SocialMedia() {
+export default function LinksArsenal() {
     return (
         <div className={style.linksContainer}>
             <div className={style.linksContent}>
                 <span className={style.title}>Cuiabá Arsenal</span>
                 <div>
-                    <a href="#">Empregos</a>
-                </div>
-                <div>
-                    <a href="#">Fale conosco</a>
+                    <a href="https://www.shoparsenal.com.br/" target="_blank" rel="noreferrer">Loja Oficial</a>
                 </div>
                 <div>
                     <a href="#">Parceiros</a>
                 </div>
+                <div>
+                    <a href="#">Fale Conosco</a>
+                </div>
             </div>
             <div className={style.linksContent}>
-                <span className={style.title}>Sobre nós</span>
+                <span className={style.title}>Sobre Nós</span>
                 <div>
                     <a href="#">Notícias</a>
                 </div>

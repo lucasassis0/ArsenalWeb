@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    color: black;
 }
 .nomeRegiao {
     font-weight: bold;

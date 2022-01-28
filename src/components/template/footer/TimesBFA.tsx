@@ -1,65 +1,64 @@
 import style from "../../../styles/components/footer/TimesBFA.module.css";
-import CardTimePorRegiao from "./CardTimesPorRegiao";
 
 export default function TimesBFA() {
-    const regioes = [
-        {
-            regiao: {
-                nomeRegiao: 'Nordeste',
-                grupos: [
-                    {
-                        nome: 'Grupo Norte',
-                        numeroTimes: 4
-                    },
-                    {
-                        nome: 'Grupo Sul',
-                        numeroTimes: 4
-                    }
-                ]
-            }
-        },
-        {
-            regiao: {
-                nomeRegiao: 'Centro-Oeste',
-                grupos: [
-                    {
-                        nome: 'Grupo Centro',
-                        numeroTimes: 4
-                    },
-                    {
-                        nome: 'Grupo Oeste',
-                        numeroTimes: 4
-                    }
-                ]
-            }
-        },
-        {
-            regiao: {
-                nomeRegiao: 'Sudeste',
-                grupos: [
-                    {
-                        nome: 'Grupo A',
-                        numeroTimes: 5
-                    },
-                    {
-                        nome: 'Grupo B',
-                        numeroTimes: 5
-                    }
-                ]
-            }
-        },
-        {
-            regiao: {
-                nomeRegiao: 'Sul',
-                grupos: [
-                    {
-                        nome: '',
-                        numeroTimes: 7
-                    }
-                ]
-            }
-        }
-    ]
+    // const regioes = [
+    //     {
+    //         regiao: {
+    //             nomeRegiao: 'Nordeste',
+    //             grupos: [
+    //                 {
+    //                     nome: 'Grupo Norte',
+    //                     numeroTimes: 4
+    //                 },
+    //                 {
+    //                     nome: 'Grupo Sul',
+    //                     numeroTimes: 4
+    //                 }
+    //             ]
+    //         }
+    //     },
+    //     {
+    //         regiao: {
+    //             nomeRegiao: 'Centro-Oeste',
+    //             grupos: [
+    //                 {
+    //                     nome: 'Grupo Centro',
+    //                     numeroTimes: 4
+    //                 },
+    //                 {
+    //                     nome: 'Grupo Oeste',
+    //                     numeroTimes: 4
+    //                 }
+    //             ]
+    //         }
+    //     },
+    //     {
+    //         regiao: {
+    //             nomeRegiao: 'Sudeste',
+    //             grupos: [
+    //                 {
+    //                     nome: 'Grupo A',
+    //                     numeroTimes: 5
+    //                 },
+    //                 {
+    //                     nome: 'Grupo B',
+    //                     numeroTimes: 5
+    //                 }
+    //             ]
+    //         }
+    //     },
+    //     {
+    //         regiao: {
+    //             nomeRegiao: 'Sul',
+    //             grupos: [
+    //                 {
+    //                     nome: '',
+    //                     numeroTimes: 7
+    //                 }
+    //             ]
+    //         }
+    //     }
+    // ]
 
     const tamanhoIcone = 40;
     return (

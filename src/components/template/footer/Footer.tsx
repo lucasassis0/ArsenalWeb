@@ -1,7 +1,8 @@
 import { useState } from "react"
 import { Button } from "react-bootstrap";
 import style from "../../../styles/components/footer/Footer.module.css";
-import SocialMedia from "./SocialMedia";
+import OutrosLinks from "./OutrosLinks";
+import LinksArsenal from "./LinksArsenal";
 import TimesBFA from "./TimesBFA";
 
 export default function Footer() {
@@ -39,8 +40,9 @@ export default function Footer() {
                     <Button className={times ? style.menuButtonSelected : style.menuButton} onClick={() => alteraMenuSelecionado('times')}>BFA Elite</Button>
                     <Button className={outros ? style.menuButtonSelected : style.menuButton} onClick={() => alteraMenuSelecionado('outros')}>Outros Links</Button>
                 </div>
-                {linksArsenal && (<SocialMedia />)}
+                {linksArsenal && (<LinksArsenal />)}
                 {times && (<TimesBFA />)}
+                {outros && (<OutrosLinks />)}
             </div>
             <div className={style.footer}>
                 <div className={style.logoThumb}>
