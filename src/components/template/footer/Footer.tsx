@@ -48,7 +48,7 @@ export default function Footer() {
                 <div className={style.logoThumb}>
                     <img src={require("../../../assets/img/brand.png")} alt="" width={70} />
                 </div>
-                <div className={style.copyright}>
+                <div>
                     <small>&copy; Copyright 2022, Lucas Assis</small>
                 </div>
             </div>

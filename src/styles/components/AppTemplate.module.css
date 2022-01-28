@@ -1,3 +1,6 @@
+body {
+    background-color: orange !important;
+}
 .header {
     width: 100%;
 }
@@ -31,4 +34,5 @@
 
 .content {
     min-height: 70vh;
+    background-color: white;
 }
