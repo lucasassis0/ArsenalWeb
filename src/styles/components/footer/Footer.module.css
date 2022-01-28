@@ -1,5 +1,5 @@
 .container {
-    background: green;
+    background: #0c3b24;
     min-height: 20vh;
 }
 .header {
@@ -7,37 +7,38 @@
     justify-content: center;
     align-items: center;
     padding-top: 0.5rem;
-    background: darkgreen;
-}
+    background: #032510;
+    color: #eee;
+} 
 .menuButton {
     background: none !important;
     border: none !important;
-    color: black !important;
+    color: #eee !important;
     margin: 0 1rem;
 }
 .menuButtonSelected {
     background: none !important;
     border: none !important;
-    color: black !important;
+    color: #eee !important;
     margin: 0 1rem;
     font-weight: bold !important;
-    border-bottom: 3px solid orange !important;
+    border-bottom: 3px solid #e2b204 !important;
 }
 .menuButtonSelected:active {
     background: none;
     border: none;
-    color: black;
+    color: #eee;
     font-weight: bold;
-    border-bottom: 3px solid orange !important;
+    border-bottom: 3px solid #e2b204 !important;
 }
 .menuButtonSelected:focus {
     outline: none !important;
     box-shadow: none !important;
     font-weight: bold;
-    border-bottom: 3px solid orange !important;
+    border-bottom: 3px solid #e2b204 !important;
 }
 .footer {
-    background: orange;
+    background: #e2b204;
     display: flex;
     flex-direction: column;
     justify-content: center;

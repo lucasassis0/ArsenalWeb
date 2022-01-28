@@ -1,5 +1,5 @@
 body {
-    background-color: orange !important;
+    background-color: #e2b204 !important;
 }
 .header {
     width: 100%;
@@ -7,7 +7,7 @@ body {
 
 .logoThumb {
     padding: 2rem 42.5%;
-    background-color: orange;
+    background-color: #e2b204;
 }
 
 .logoThumb img:hover {
@@ -34,5 +34,5 @@ body {
 
 .content {
     min-height: 70vh;
-    background-color: white;
+    background-color: #eee;
 }

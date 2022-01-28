@@ -12,10 +12,10 @@
     font-size: 20px;
     font-weight: bolder;
     padding: 0.5rem;
-    color: black;
+    color: #eee;
 }
 a {
-    color: black !important;
+    color: #eee !important;
     text-decoration: none !important;
     font-weight: 600 !important;
 }

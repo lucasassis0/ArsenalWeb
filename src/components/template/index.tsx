@@ -1,7 +1,7 @@
 import TopBar from "./TopBar";
 import Footer from "./footer/Footer";
 import style from "../../styles/components/AppTemplate.module.css";
-import Content from "../../styles/pages/Content";
+import Content from "../../pages/Content";
 
 export default function AppTemplate() {
     return (

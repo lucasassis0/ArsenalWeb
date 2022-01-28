@@ -1,6 +1,7 @@
 .background {
-    background-color: green !important;
+    background-color: #0c3b24 !important;
 }
 .link {
     padding: 0.5rem;
+    color: #eee !important;
 }
