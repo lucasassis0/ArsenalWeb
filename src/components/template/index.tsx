@@ -1,27 +1,27 @@
-import React from "react";
 import TopBar from "./TopBar";
 import Footer from "./footer/Footer";
 import style from "../../styles/components/AppTemplate.module.css";
+import Content from "../../styles/pages/Content";
 
-export default class AppTemplate extends React.Component {
-    render(): React.ReactNode {
-        return (
-            <div>
-                <div className={style.header}>
-                    {/* <div className="thumb">
+export default function AppTemplate() {
+    return (
+        <div>
+            <div className={style.header}>
+                {/* <div className="thumb">
                     <img src={require("../../assets/img/thumb1.jpg")} alt="" width={"50%"} height={250} />
                     <img src={require("../../assets/img/thumb2.jpg")} alt="" width={"50%"} height={250} />
                     </div> */}
-                    <div className={style.logoThumb}>
-                        <img src={require("../../assets/img/logo-thumb.png")} alt="" width={250} />
-                    </div>
-                    <TopBar />
+                <div className={style.logoThumb}>
+                    <img src={require("../../assets/img/logo-thumb.png")} alt="" width={250} />
                 </div>
-                <div className={style.content}></div>
-                <div className={style.footer}>
-                    <Footer />
-                </div>
+                <TopBar />
             </div>
-        );
-    }
+            <div className={style.content}>
+                <Content />
+            </div>
+            <div className={style.footer}>
+                <Footer />
+            </div>
+        </div>
+    );
 }
