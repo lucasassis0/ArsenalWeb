@@ -24,7 +24,7 @@ export default function Home() {
                                 className="d-block"
                                 src={require("../assets/img/thumb1.jpg")}
                                 alt="First slide"
-                                width={600}
+                                // width={600}
                             />
                             <Carousel.Caption>
                                 <h3>First slide label</h3>
@@ -36,7 +36,7 @@ export default function Home() {
                                 className="d-block"
                                 src={require("../assets/img/thumb2.jpg")}
                                 alt="Second slide"
-                                width={600}
+                                // width={600}
                             />
                             <Carousel.Caption>
                                 <h3>Second slide label</h3>
@@ -48,7 +48,7 @@ export default function Home() {
                                 className="d-block"
                                 src={require("../assets/img/thumb1.jpg")}
                                 alt="Third slide"
-                                width={600}
+                                // width={600}
                             />
                             <Carousel.Caption>
                                 <h3>Third slide label</h3>
@@ -62,6 +62,30 @@ export default function Home() {
                         <div className={style.latestTab}>Últimas notícias</div>
                     </div>
                     <div className={style.content}>
+                        <div className={style.cardNews}>
+                            <div>
+                                <BsNewspaper />
+                            </div>
+                            <div>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, omnis.</span>
+                            </div>
+                        </div>
+                        <div className={style.cardNews}>
+                            <div>
+                                <BsPlayCircle />
+                            </div>
+                            <div>
+                                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque delectus doloremque saepe, facere at sed?</span>
+                            </div>
+                        </div>
+                        <div className={style.cardNews}>
+                            <div>
+                                <BsCardImage />
+                            </div>
+                            <div>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ullam reprehenderit porro doloremque necessitatibus dolorum excepturi aut incidunt! Veniam, vitae.</span>
+                            </div>
+                        </div>
                         <div className={style.cardNews}>
                             <div>
                                 <BsNewspaper />
