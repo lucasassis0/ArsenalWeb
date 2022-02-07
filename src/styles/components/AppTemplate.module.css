@@ -1,20 +1,19 @@
 body {
     background-color: #e2b204 !important;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif !important;
+    margin: 0;
+    padding: 0;
 }
 .header {
     width: 100%;
 }
-
 .logoThumb {
     padding: 2rem 42.5%;
     background-color: #e2b204;
 }
-
 .logoThumb img:hover {
     animation: heartBeat 1.5s infinite;
 }
-
 @keyframes heartBeat {
     from {
         transform: scale(1);
@@ -32,8 +31,8 @@ body {
         transform: scale(1);
     }
 }
-
 .content {
     min-height: 70vh;
     background-color: #eee;
+    padding-bottom: 1rem;
 }
